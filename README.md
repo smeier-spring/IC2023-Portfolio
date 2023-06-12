@@ -12,12 +12,11 @@ This is the template repository for the Portfolio Project!
 # How to get started - VSCode/Editing after forking:
 
 
-# Presentation will be on 7/12
-Should be around 5 minutes
-
-$500 for the best Portfolio!
+# Portfolio Information - PROJECT DUE ON 7/12
+Students will create a technical project during the Catapult summer program. The project is a portfolio website that will hopefully be something they will use in the future...think digital resume and a place to store and showcase all of the wonderful projects they build now and in the future! Aim for a 5 minute long presentation on your website. The Overall Winner will recieve a $500 giftcard for the best Portfolio!
 
 Read the Indy Portfolio Project Guidelines and Expectations for more
+
 Link to Guidlines: https://docs.google.com/document/d/1fwEJszPqu8TUMH_cRxjSxehVqnTlpgD4sgW449wHzGQ/edit?usp=sharing
 
 You can delete this README before your final commit if you want to.
