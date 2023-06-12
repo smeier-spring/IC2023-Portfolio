@@ -1,7 +1,16 @@
 # IC2023-Portfolio
 This is the template repository for the Portfolio Project!
 
-# What to do:
+# How to get started - GitHub:
+1. Create a GitHub account.
+2. Download GitHub Desktop and Sign in.
+3. Near the Top Right there is a button labeled "Fork", click it.
+4. DO NOT change any of the default options; Make sure that when you create the fork, it is under your own account.
+5. Now click the profile picture on the top left, and then click "Your Profile".
+6. You can now find your repository on the GitHub website.
+
+# How to get started - VSCode/Editing after forking:
+
 
 # Presentation will be on 7/12
 Should be around 5 minutes
