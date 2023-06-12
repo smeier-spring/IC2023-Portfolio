@@ -7,7 +7,9 @@ This is the template repository for the Portfolio Project!
 3. Go back to the website.
 4. Near the Top Right there is a button labeled "Fork", click it.
 5. DO NOT change any of the default options, except make sure when you fork it is "For my own purposes" (Picture below is for reference); Make sure to take note of the local path of the repository, this is the location of the folder that is connected to your repository. 
+
 ![image](https://github.com/RidgeFalco/IC2023-Portfolio/assets/89974909/92a1c1f5-87bc-4fc7-8cea-949f94a90715)
+
 6. Now click the profile picture on the top right, and then click "Your Profile".
 7. You can now find your repository on the GitHub website.
 
