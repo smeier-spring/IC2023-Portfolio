@@ -17,6 +17,7 @@ You can delete this README before your final commit if you want to.
 Visual Studio (VS Code) is a code editor redefined and optimized for building and debugging modern web and cloud applications. 
 
 Link to Install: https://code.visualstudio.com/
+
 OPTIONAL Extensions for Visual Studio Code
 - Auto Close Tag (https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag)
 - Auto Rename Tag (https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag)
