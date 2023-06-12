@@ -1,7 +1,7 @@
 # IC2023-Portfolio
 This is the template repository for the Portfolio Project!
 
-#What to do:
+# What to do:
 
 # Presentation will be on 7/12
 Should be around 5 minutes
