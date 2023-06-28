@@ -1,0 +1,115 @@
+/* Feel free to change any of the styling below!*/
+body {
+    color: whitesmoke;
+    background-image: url(project_images/forest.png);
+    
+    background-position: center;
+    background-size: cover;
+    vertical-align: center;
+    text-align: center;
+}
+
+h1 {
+    color: whitesmoke;
+    font-size: 50px;
+}
+
+h3{
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+
+img {
+    width: 350px;
+}
+
+.title {
+    font-size: 50px;
+    font-weight: 800;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+
+}
+
+p {
+    font-size: 30px;
+    font-weight: 800;
+}
+
+
+button {
+    height: 40px;
+}
+
+
+
+/* When someone enters your game, you only want them to see the opening and the option buttons. The code below will use the display property to hide certain parts of the story. Remove the comments from the code below when you're ready for that step!*/
+
+/* 
+.story-opening{
+   display:none;
+}
+*/
+
+/* 
+.buttons{
+   display:none;
+}
+*/
+
+/* 
+.open-one-screen{
+   display:none;
+}
+*/
+
+/* 
+.open-two-screen{
+   display:none;
+}
+*/
+
+/* 
+.open-one-end{
+   display:none;
+}
+*/
+
+/* 
+.open-two-end{
+   display:none;
+}
+*/
+
+button:hover {
+    background-color: #B2A4D4;
+}
+
+.text {
+    text-shadow: 0.5em 0.5em 0.5em black;
+}
+
+.img_style {
+    border-radius: 1000px;
+}
+
+.death8 {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+
+.img_style_log {
+    border-radius: 1000px;
+    margin-top: 10px;
+}
+
+button {
+    border-radius: 10px;
+    margin: 10px;
+    background-color: #d3d3d3;
+}
