@@ -1,6 +1,6 @@
+//function to fade elements out on scroll
 var transition = document.getElementById('transition');
-
-function fadeOutOnScroll(element) {
+function fadeOutOnScroll(element) { 
 	if (!element) {
 		return;
 	}
@@ -18,16 +18,19 @@ function fadeOutOnScroll(element) {
 	}
 }
 
+//function for parallax effect in section 2
 function scrollHandler() {
 	fadeOutOnScroll(transition);
 }
 
-window.addEventListener('scroll', scrollHandler);
+   window.addEventListener('scroll', scrollHandler);
+    window.addEventListener('scroll', function() {
+    var scrollingContent1 = document.getElementById('boxA');
+    var scrollingContent2 = document.getElementById('boxC');
+    const fastBox = document.getElementById('boxB');
 
-
-window.addEventListener('scroll', function() {
-    var scrollingContent = document.querySelector('.box2');
-    var scrolled = window.pageYOffset;
-    scrollingContent.style.transform = 'translate3d(0, ' + scrolled * 0.8 + 'px, 0)';
-  });
-  
+    var scrolled = window.scrollY-3000;
+    scrollingContent1.style.transform = 'translate3d(0, ' + scrolled*0.8 + 'px, 0)';
+    scrollingContent2.style.transform = 'translate3d(0, ' + scrolled*0.8 + 'px, 0)';
+    fastBox.style.transform = 'translate3d(0, '+ (scrolled*0.95) + 'px, 0)';
+        });
