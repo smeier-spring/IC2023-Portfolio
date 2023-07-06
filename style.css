@@ -9,7 +9,6 @@ body {
     overflow-x: hidden;
 }
 
-
 .title {
     margin: 0px;
     padding: 5px;
@@ -31,18 +30,28 @@ text-shadow:
 }
 
 .color1 {
-    background-image: linear-gradient(white, #E1E1D7);
+    background-image: linear-gradient(white, #876CAB);
+   /* background-image: linear-gradient(white, #E1E1D7);*/
     width: 100%;
-    padding-bottom: 100px;
+    padding: 20px;
+    margin-top: -60px;
+}
+
+.colorfill{
+    background-color:  #876CAB;
+    height: 100px;
 }
 
 .section1 {
+    position: relative;
     background-color: #EEE6D9;
-    background-image: url(img/rock.jpeg);
+    background-image: url(img/new.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     border: none;
+    margin: none;
+    margin-top: 0px;
     height: 110%;
     width: 100%;
     padding-top: 50px;
@@ -56,7 +65,8 @@ text-shadow:
     margin-bottom: 50px;
     padding: 10px;
     margin-left: 40px;
-    background-color:  #E1E1D7
+    background-color: white
+    /* #E1E1D7 */
 
 }
 
@@ -72,7 +82,7 @@ text-shadow:
 .words {
     margin-right: 30%;
     margin-top: 20px;
-    background-color: #EEE6D9;
+    background-color:white; /* #EEE6D9;*/
     padding-top: 10%;
     padding-bottom: 10%;
     padding-right: 5%;
@@ -171,37 +181,94 @@ p{
 .create {
     padding-top: 20px;
     display: inline-flex;
-    height: 1000px;
+    height: 900px;
     width: 100%;
     justify-content: space-evenly;
     overflow-x: hidden;
+    text-align: left;
 }
 
 .col {
     border: solid 1px black;
     height: 100%;
     width: 20%;
-    text-align: center;
     margin: 0px;
     padding: 0px;
+    background-color: white;
 }
+
+@keyframes wipe-enter {
+    0% {
+    margin-left: -100%;
+    width: 0%;
+}
+    100%{
+        margin-left: 0%;
+        width: 100%
+    }
+}
+
+
+@keyframes wipe-enter2 {
+    0% {
+    margin-left: 100%;
+    width: 0%;
+}
+    100%{
+        margin-left: 0%;
+        width: 100%
+    }
+}
+
 
 #specific {
     font-size: 4em;
     margin: 10px;
-
-
-    animation-duration: 3s;
-    animation-name: slidein;
-
-    @keyframes slidein {
-        from{}
-        to{}
-
-    }
+    text-align: center;
 }
 
-.colTitle {
-    margin: 0;
-    padding: 0;
+#specific2 {
+    text-align: center;
+    font-size: 4em;
+    margin: 10px;
+}
+
+.animation {
+    animation-duration: 2s;
+    animation-name: wipe-enter;
+    animation-timing-function: linear;
+}
+
+.animation2 {
+    animation-duration: 2s;
+    animation-name: wipe-enter2;
+    animation-timing-function: linear;
+}
+
+.bunny {
+    margin-top: 200px;
+    width: 200px;
+    height: 200px;
+}
+
+.nanostride {
+    margin-top: 190px;
+    width: 200px;
+    height: 200px;
+}
+
+.adhd{
+    width: 400px;
+    height: 200px;
+    margin-top: 20px;
+}
+
+.adventure {
+    margin-top: 200px;
+    width: 400px;
+    height: 200px;
+}
+
+.project {
+    position: relative;
 }
