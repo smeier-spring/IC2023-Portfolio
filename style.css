@@ -1,6 +1,14 @@
 /*use parallax foreground/background for section transitions
 https://stackoverflow.com/questions/42821213/different-scroll-speed-for-each-element
 */
+#scrollbar {
+    position: fixed;
+    top: 0;
+    width: 0%;
+    height: 4px;
+    background: #7983ff;
+    z-index: 10000;
+  }
 
 body {
     font-family: sans-serif;
@@ -181,15 +189,19 @@ p{
 .create {
     padding-top: 20px;
     display: inline-flex;
-    height: 900px;
+    height: 800px;
     width: 100%;
     justify-content: space-evenly;
     overflow-x: hidden;
     text-align: left;
+    background-color: white;
+    top: 0;
+    left: 0;
+    background-position: absolute;
 }
 
 .col {
-    border: solid 1px black;
+   border: solid 1px black;
     height: 100%;
     width: 20%;
     margin: 0px;
@@ -245,30 +257,64 @@ p{
     animation-timing-function: linear;
 }
 
-.bunny {
-    margin-top: 200px;
-    width: 200px;
-    height: 200px;
-}
-
-.nanostride {
-    margin-top: 190px;
-    width: 200px;
-    height: 200px;
-}
-
-.adhd{
-    width: 400px;
-    height: 200px;
-    margin-top: 20px;
-}
-
-.adventure {
-    margin-top: 200px;
-    width: 400px;
-    height: 200px;
-}
-
 .project {
     position: relative;
+    border: solid 2px black;
+    width: 500px;
+    height: 300px;
+    margin-top: -400px;
+    background-color: white;
+    margin-left: 100px;
+    padding: 10px;
+}
+
+.last_transition {
+    background-color: linear-gradient(white, #fdab9f);
+    height: 400px;
+    width: 100%;
+}
+
+a {
+    color: #0000FF;
+}
+
+a:hover {
+    color:purple;
+}
+
+.contacts {
+    background-color: #fdab9f;
+    display: inline-flex;
+    width: 100%;
+}
+
+#icon1 {
+    width: 5%;
+    height: 5%;
+    border: 2px solid black;
+    margin-bottom: -15px;
+}
+
+#icon2 {
+    width: 5%;
+    height: 5%;
+    border: 2px solid black;
+    margin-bottom: -10px;
+}
+.email {
+    display: inline-flex;
+}
+
+.phone{
+    display: inline-flex;
+}
+
+.email_words{
+    margin-left: 5px;
+    border: 2px solid black;
+}
+
+.phone_words {
+    margin-left: 5px;
+    border: 2px solid black;
 }

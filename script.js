@@ -1,3 +1,11 @@
+const scrollProgress = document.getElementById('scrollbar');
+const screenHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+
+window.addEventListener('scroll', () => {
+  const top = document.body.scrollTop || document.documentElement.scrollTop;
+  scrollProgress.style.width = `${(top / screenHeight) * 100}%`;
+});
+
 //function to fade elements out on scroll
 var transition = document.getElementById('transition');
 function fadeOutOnScroll(element) { 
