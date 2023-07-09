@@ -81,3 +81,37 @@ const observer = new IntersectionObserver(entries => {
 });
 observer.observe(document.querySelector('.create'));
 
+//for scrolling back to the top
+document.addEventListener('DOMContentLoaded', function() {
+    var scrollToTopBtn = document.getElementById('toTop');
+
+ scrollToTopBtn.addEventListener('click', function(e) {
+    e.preventDefault();
+    scrollToTop(1000);
+  });
+});
+
+function scrollToTop(duration) {
+    var start = window.pageYOffset;
+    var startTime = performance.now();
+    
+    function animateScroll(timestamp) {
+      var currentTime = timestamp - startTime;
+      var scrollY = Math.easeIn(currentTime, start, -start, duration);
+      
+      window.scrollTo(0, scrollY);
+      
+      if (currentTime < duration) {
+        requestAnimationFrame(animateScroll);
+      }
+    }
+
+   Math.easeIn = function(t, b, c, d) {
+    t /= d / 2;
+    if (t < 1) return c / 2 * t * t + b;
+    t--;
+    return -c / 2 * (t * (t - 2) - 1) + b;
+  };
+
+  requestAnimationFrame(animateScroll);
+}

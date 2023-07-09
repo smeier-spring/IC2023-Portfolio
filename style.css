@@ -186,6 +186,27 @@ p{
     height: 700px;
 }
 
+.star {
+    margin: 0;
+    margin-top: 5px;
+    font-weight: bold;
+}
+
+.star1 {
+    margin: 0;
+    margin-top: 20px;
+    font-weight: bold;
+    margin-right: 10px;
+    margin-left: 10px;
+
+
+}
+
+.night {
+    margin:0;
+    margin-top: -15px;;
+}
+
 .create {
     padding-top: 20px;
     display: inline-flex;
@@ -194,7 +215,7 @@ p{
     justify-content: space-evenly;
     overflow-x: hidden;
     text-align: left;
-    background-color: white;
+    background-color:white;
     top: 0;
     left: 0;
     background-position: absolute;
@@ -266,11 +287,12 @@ p{
     background-color: white;
     margin-left: 100px;
     padding: 10px;
+    margin-bottom: 5px;
 }
 
 .last_transition {
     background-color: linear-gradient(white, #fdab9f);
-    height: 400px;
+    height: 100px;
     width: 100%;
 }
 
@@ -282,39 +304,40 @@ a:hover {
     color:purple;
 }
 
-.contacts {
-    background-color: #fdab9f;
-    display: inline-flex;
+.contact_center {
     width: 100%;
-}
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    }
 
-#icon1 {
-    width: 5%;
-    height: 5%;
-    border: 2px solid black;
-    margin-bottom: -15px;
-}
 
-#icon2 {
-    width: 5%;
-    height: 5%;
-    border: 2px solid black;
-    margin-bottom: -10px;
-}
-.email {
+.contacts {
+    width: 80%;
+    padding: 5px;
+    position: relative;
     display: inline-flex;
+    margin-top: 5px;
 }
 
-.phone{
-    display: inline-flex;
+.contact_me{
+    width: 50%;
 }
 
-.email_words{
-    margin-left: 5px;
-    border: 2px solid black;
+.con {
+    font-size:30px;
+    text-align: center;
+    color: black;
 }
 
-.phone_words {
-    margin-left: 5px;
-    border: 2px solid black;
+.con:hover {
+    text-decoration-line: underline;
+}
+.hidden {
+    text-decoration: none;
+}
+
+.thing2 {
+    width: 50%;
 }
