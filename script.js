@@ -38,7 +38,7 @@ function scrollHandler() {
     var scrollingContent2 = document.getElementById('boxC');
     const fastBox = document.getElementById('boxB');
 
-    var scrolled = window.scrollY-2700;
+    var scrolled = window.scrollY-2500;
     scrollingContent1.style.transform = 'translate3d(0, ' + scrolled*0.7 + 'px, 0)';
     scrollingContent2.style.transform = 'translate3d(0, ' + scrolled*0.7 + 'px, 0)';
     fastBox.style.transform = 'translate3d(0, '+ (scrolled*0.8) + 'px, 0)';
